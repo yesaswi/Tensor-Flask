@@ -7,6 +7,6 @@ EXPOSE 5000
 
 RUN pip install -r requirements.txt
 
-RUN python model.py
+# RUN python model.py
 
 ENTRYPOINT python app.py
